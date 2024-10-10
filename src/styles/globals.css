@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  main {
+    @apply min-h-screen w-full;
+  }
+
+  html {
+    @apply font-pretendard;
+  }
+}
